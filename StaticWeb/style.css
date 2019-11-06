@@ -1,5 +1,9 @@
+header{
+  background-color: #F5F5F5;
+}
+
 .gray-background {
-  background-color: #F4F6F5;
+  background-color: #F5F5F5;
   height: 40px;
 }
 
@@ -12,4 +16,8 @@
 .ui.menu .active.item{
   font-weight:normal;
   box-shadow:none;
+}
+
+.ui.menu{
+  background-color: #F5F5F5;
 }
