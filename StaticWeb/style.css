@@ -1,6 +1,4 @@
-header{
-  background-color: #F5F5F5;
-}
+
 
 .gray-background {
   background-color: #F5F5F5;
@@ -18,9 +16,44 @@ header{
   box-shadow:none;
 }
 
-.ui.menu{
+.topmenu.ui.menu{
   background-color: #F5F5F5;
   padding-left: 30px;
   padding-right: 40px;
+  border: none;
+  box-shadow: none;
 }
 
+#middle-menu.ui.menu{
+  border: none;
+  box-shadow: none;
+}
+
+ul{
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  float: none;
+}
+
+.bg-image {
+  position: relative;
+}
+.bg-image img {
+  display: block;
+  width: 100%;
+  max-width: none; /* corresponds to max height of 450px */
+  margin: 0 auto;
+}
+.bg-image h1 {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
