@@ -57,3 +57,28 @@ ul li{
   right: 0;
   color: white;
 }
+
+.color-box{
+  background-color: #292929;
+  display: block;
+  width: 100%;
+  max-width: none;
+  max-height: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+}
+
+#bottom-social-menu{
+  position:center;
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+}
+
+.vertical.menu{
+  border: none;
+  shadow: none;
+}
